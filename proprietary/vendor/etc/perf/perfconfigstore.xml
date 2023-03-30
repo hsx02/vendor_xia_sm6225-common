@@ -89,7 +89,13 @@ property Name is called. -->
                 <Prop Name="ro.vendor.qti.sys.fw.bservice_limit" Value="5"     Target="khaje" Ram="3" />
                 <Prop Name="ro.vendor.qti.sys.fw.bservice_age"   Value="5000"  Target="khaje" Ram="3" />
                 <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit"  Value="32"    Target="khaje" Ram="3" />
-                <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit"  Value="96"    Target="khaje" Ram="4" />
+                <Prop Name="ro.lmk.thrashing_threshold"          Value="30"    Target="khaje" Ram="3"/>
+                <Prop Name="ro.lmk.thrashing_decay"              Value="50"    Target="khaje" Ram="3"/>
+                <Prop Name="ro.lmk.nstrat_low_swap"              Value="0"     Target="khaje" Ram="3"/>
+                <Prop Name="ro.lmk.nstrat_psi_partial_ms"        Value="70"    Target="khaje" Ram="3"/>
+                <Prop Name="ro.lmk.nstrat_psi_complete_ms"       Value="150"    Target="khaje" Ram="3"/>
+                <Prop Name="ro.lmk.nstrat_psi_scrit_complete_stall_ms" Value="300" Target="khaje" Ram="3"/>
+		<Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit"  Value="96"    Target="khaje" Ram="4" />
 
     </PerfConfigs>
 </PerfConfigsStore>
